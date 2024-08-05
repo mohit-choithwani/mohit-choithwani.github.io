@@ -1759,7 +1759,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: #000000;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1785,12 +1785,12 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #989898;
+		color: #000000;
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #000000;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -2206,7 +2206,17 @@ input, select, textarea {
 
 			.image.main img {
 				border-radius: 0;
-			}
+		}
+			.image-container {
+				position: relative;
+				width: 100%;
+		}
+			.image-container img {
+				position: relative;
+				max-width: 80%;
+				height: auto;
+				left: 10%;
+		}
 
 /* List */
 
@@ -2224,6 +2234,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2.25em 0;
 		padding-left: 1em;
+		
 	}
 
 		ul li {
@@ -2385,7 +2396,7 @@ input, select, textarea {
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 48%;
+			width: 100%;
 		}
 
 			ul.feature-icons li:before {
@@ -2701,7 +2712,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #989898;
-		color: #d2f2e9;
+		color: #d4d4d4;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2720,11 +2731,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #000000;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #d4d4d4;
 		}
 
 			#header a:hover {
@@ -2751,7 +2762,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #000000;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2772,7 +2783,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #d4d4d4;
 				}
 
 		#header > nav {
@@ -2789,7 +2800,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #d4d4d4;
 					display: block;
 					padding: 0;
 				}
@@ -2808,7 +2819,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #989898 !important;
+							color: #000000 !important;
 						}
 
 					#header > nav ul li:first-child {
