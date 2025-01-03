@@ -21,13 +21,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Mohit Choithwani',
+        short_name: 'Mohit Choithwani',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo_m.png',
+        icon: './src/images/logo_m.png',
       },
     },
     `gatsby-plugin-offline`,
