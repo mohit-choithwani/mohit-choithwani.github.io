@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://brittanychiang.com/mohit-choithwani.github.io/sitemap-index.xml
-Host: https://brittanychiang.com
+Sitemap: https://mohit-choithwani.github.io/sitemap-index.xml
+Host: https://mohit-choithwani.github.io
